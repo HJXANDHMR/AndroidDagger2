@@ -8,6 +8,6 @@ public class ActivityModule {
 
     @Provides
     public UserModel provideUserModel() {
-        return new UserModel("1", "2", "3");
+        return new UserModel("1", "hjx", "man");
     }
 }

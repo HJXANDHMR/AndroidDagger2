@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
                 activityModule(new ActivityModule()).build();
         mActivityComponent.inject(this);
         ((TextView) findViewById(R.id.textView)).
-                setText(mUserModel.getId() + mUserModel.getId() + mUserModel.getGender());
+                setText("ID:" + mUserModel.getId() + " Name: " + mUserModel.getName() + "  Gender: " + mUserModel.getGender());
     }
 }
